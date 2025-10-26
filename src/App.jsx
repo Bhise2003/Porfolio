@@ -1,6 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X, Github, Linkedin, Mail, ExternalLink, Code, User, GraduationCap, Award, Phone, MapPin, ChevronDown, Sparkles } from 'lucide-react';
 
+
+
+
+
+
 export default function Portfolio() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [activeSection, setActiveSection] = useState('home');
